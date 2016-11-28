@@ -9,17 +9,17 @@ public class ex03 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.print("輸入(>=2)的值:");
-		float n=sc.nextFloat();
-		float x,count=0;
+		int n=sc.nextInt();
+		int x,count=0;
 		System.out.print(1+"   ");
 		for(int i=2;i<=n;i++){
 			if(n%i==0)
 				System.out.print(i+"   ");
 		}
 		x=n/2;
-		if(x%2 == 0 && x != 2) 
+		if(n%2 == 0 && n != 2) 
 			count++;
-		if(x==1)
+		if(n==1)
 			count++;
 			for(int i=2; i<=x; i++){ 
 				if(n%i==0)
