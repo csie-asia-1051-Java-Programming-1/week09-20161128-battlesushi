@@ -16,6 +16,7 @@ public class ex03 {
 			if(n%i==0)
 				System.out.print(i+"   ");
 		}
+		////判斷質數
 		if(n%2 == 0 && n != 2) 
 			count++;
 		if(n==1)
