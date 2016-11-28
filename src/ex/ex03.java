@@ -9,8 +9,8 @@ public class ex03 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.print("輸入(>=2)的值:");
-		int n=sc.nextInt();
-		int x,count=0;
+		float n=sc.nextFloat();
+		float x,count=0;
 		System.out.print(1+"   ");
 		for(int i=2;i<=n;i++){
 			if(n%i==0)
