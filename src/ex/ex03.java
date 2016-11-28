@@ -10,18 +10,17 @@ public class ex03 {
 		Scanner sc=new Scanner(System.in);
 		System.out.print("輸入(>=2)的值:");
 		int n=sc.nextInt();
-		int x,count=0;
+		int count=0;
 		System.out.print(1+"   ");
 		for(int i=2;i<=n;i++){
 			if(n%i==0)
 				System.out.print(i+"   ");
 		}
-		x=n/2;
 		if(n%2 == 0 && n != 2) 
 			count++;
 		if(n==1)
 			count++;
-			for(int i=2; i<=x; i++){ 
+			for(int i=2; i<=n/2; i++){ 
 				if(n%i==0)
 					count++;
 			}
